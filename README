@@ -1,0 +1,13 @@
+SPS_HELPER
+==========
+
+Getting the profile:
+ - Use './get_profile.sh' to extract the profile from a running
+   instance of fennec. ADB must be in your PATH and a single Android device
+   must be connected.
+
+Symbolicate Leaf data:
+ WORK IN PROGRESS, more friendly instructions and tools coming up.
+ - For local builds run 'make buildsymbols' in your objdir.
+ - Take the breakbad symbol file for your build and extract to ./symbols.
+ - Use 'python ./tools/symbolicate/breakpad_symbolicate.py'
