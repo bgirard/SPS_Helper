@@ -6,6 +6,12 @@ function error {
   exit -1
 }
 
+function check_objdir {
+  if [ -z $MOZ_OBJDIR ]
+  then
+    error "You must specify the MOZ_OBJDIR used for this build."
+  fi
+}
 
 function check_adb {
   hash adb 2>&-
@@ -32,10 +38,12 @@ function dump_libs {
   adb pull /system/lib device_libs
   # flatten
   find device_libs -name "*.so" -type f -exec cp '{}' device_libs \;
-  ls device_libs/*
+  cp $MOZ_OBJDIR/dist/lib/*.so device_libs
 }
 
 function main {
+  check_objdir
+
   check_adb
 
   select_device

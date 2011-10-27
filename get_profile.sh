@@ -17,6 +17,16 @@ function check_adb {
   fi
 }
 
+function check_addr2line {
+  hash arm-linux-androideabi-addr2line 2>&-
+  HAS_ADB=$?
+
+  if [ $HAS_ADB != 0 ]
+  then
+    error "arm-linux-androideabi-addr2line not found on path. Add the ndk toolchain bin directory to your path."
+  fi
+}
+
 function select_device {
   adb shell echo test > /dev/null
   ADB_DEVICE=$?
@@ -30,16 +40,18 @@ function find_pid {
   # By default, this will attach to the parent process.
   # Use "plugin-container" as argument to attach to child.
   if [ -z $1 ]; then
-    GREP=org.mozilla.fennec
+    GREP="S org.mozilla.fennec"
   else
     GREP=$1
   fi
-  export PID=`adb shell ps | grep $GREP | head -n 1 | cut -c11-16`
+  export PID=`adb shell ps | grep "$GREP" | head -n 1 | cut -c11-16`
+  echo $PID
   if [ -z $PID ]; then
     error "Could not find fennec process: '$GREP'. Make sure fennec is running."
   fi
 
-  PACKAGE=`adb shell ps | grep $GREP | awk '{ print $9 }' | tr '\r' ' ' | tr '\n' ' '`
+  PACKAGE=`adb shell ps | grep "$GREP" | awk '{ print \$9 }' | tr '\r' ' ' | tr '\n' ' '`
+  echo $PACKAGE
 }
 
 function clear_profile {
@@ -48,6 +60,7 @@ function clear_profile {
 
 function dump_profile {
   adb shell run-as $PACKAGE kill -42 $PID
+  echo adb shell run-as $PACKAGE kill -42 $PID
   sleep 2
   mkdir tmp 2> /dev/null
   rm tmp/profile_*.txt 2> /dev/null
@@ -59,6 +72,7 @@ function dump_profile {
 
 function main {
   check_adb
+  check_addr2line
 
   select_device
 
