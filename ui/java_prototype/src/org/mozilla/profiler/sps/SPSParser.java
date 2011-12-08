@@ -10,19 +10,22 @@ import org.mozilla.profiler.sps.gui.MainWindow;
 public class SPSParser {
 	
 	public static void main(String[] args) throws Exception {
-		SampleLog log = SPSParser.parse("profile_log_0");
+		System.out.println("Symbolicating...");
+		String symbolicate = AtosSymbolicate.symbolicate("profile_mac");
+		System.out.println("Parsing...");
+		SampleLog log = SPSParser.parse(new Scanner(symbolicate));
+		System.out.println("Render...");
 		new MainWindow(log);
 	}
 
-	private static SampleLog parse(String fileName) throws Exception {
-		File file = new File(fileName);
-		Scanner scanner = new Scanner(file);
+	private static SampleLog parse(Scanner scanner) throws Exception {
 		
 		SampleLog log = new SampleLog();
 		// Maker go with the next sample
 		List<Marker> pendingMarker = new ArrayList<Marker>();
 		Leaf leaf = null;
 		Sample lastSample = null;
+		int r = 0;
 		while(scanner.hasNextLine()) {
 			String nextLine = scanner.nextLine();
 			
@@ -34,6 +37,7 @@ public class SPSParser {
 				}
 				Sample s = new Sample(stack);
 				s.addMarkers(pendingMarker);
+				s.addResponsiveness(r);
 				pendingMarker = new ArrayList<Marker>();
 				log.addSample(s);
 				if( leaf != null ) {
@@ -44,7 +48,10 @@ public class SPSParser {
 			} else if( nextLine.startsWith("m-") ) { // Parse pending marker
 				String marker = nextLine.substring(2);
 				pendingMarker.add(new Marker(marker));
-			} else if( nextLine.startsWith("l-") ) { // Parse pending marker
+			} else if( nextLine.startsWith("r-") ) { // Parse pending marker
+				r = Integer.parseInt(nextLine.substring(2));
+			} else if( nextLine.startsWith("l-") && lastSample != null && !nextLine.startsWith("l-0x") ) { // Parse pending marker
+				lastSample.getStack().add(nextLine.substring(2));
 				//String leafStr = nextLine.substring(2);
 				//leaf = new Leaf(leafStr);
 			} else if( nextLine.startsWith("c-") && lastSample != null ) { // Parse pending marker

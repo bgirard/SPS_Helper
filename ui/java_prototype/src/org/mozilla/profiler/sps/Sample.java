@@ -7,6 +7,7 @@ public class Sample {
 	private List<String> stack = new ArrayList<String>();
 	private List<Marker> markers = new ArrayList<Marker>();
 	private Leaf leaf = null;
+	private int r;
 	
 	public Sample(List<String> stack) {
 		this.stack.addAll(stack);
@@ -32,5 +33,13 @@ public class Sample {
 	
 	public Leaf getLeaf() {
 		return leaf;
+	}
+
+	public void addResponsiveness(int r) {
+		this.r = r;
+	}
+	
+	public int getResponsiveness() {
+		return r;
 	}
 }

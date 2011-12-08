@@ -43,6 +43,7 @@ public class ViewList extends View {
 	private DefaultListModel markerListModel;
 	private DefaultTreeModel treeModel;
 	private List<String> highlightMatchingStack;
+	private int selectedSamples = 1;
 
 	public ViewList(SampleLog log) {
 		super(log);
@@ -139,7 +140,10 @@ public class ViewList extends View {
 		}
 		@Override
 		public String toString() {
-			return String.format("%6.2f %s", c * 100.0 / log.samples.size(), getName());
+			return String.format("%6.2f %s", c * 100.0 / Math.max(1,selectedSamples), getName());
+		}
+		public int getCount() {
+			return c;
 		}
 	}
 
@@ -148,9 +152,11 @@ public class ViewList extends View {
 		//while (root.getChildCount() > 0) {
 			//treeModel.removeNodeFromParent((MutableTreeNode)root.getChildAt(0));
 		//}
+		System.out.println("Computing selection range");
 		SampleLog filter = SampleFilter.filter(log, selectionStart, selectionEnd);
 		List<Sample> samples = filter.samples;
-		System.out.println("Selected samples: " + samples.size());
+		System.out.println("Selecting samples: " + samples.size());
+		selectedSamples = samples.size();
 		for (Sample sample : samples) {
 			
 			List<Marker> markers = sample.getMarkers();
@@ -185,6 +191,45 @@ public class ViewList extends View {
 			
 		}
 		
+		// Sort the tree
+		System.out.println("Sorting...");
+		boolean keepSorting = true;
+		while( keepSorting ) {
+			keepSorting = sort(root);
+		}
+	}
+	
+	private boolean sort(DefaultMutableTreeNode currNode) {
+		Enumeration<DefaultMutableTreeNode> children = currNode.children();
+		DefaultMutableTreeNode prevNode = null;
+		StackNode prevNodeObj = null;
+		while (children.hasMoreElements()) {
+			DefaultMutableTreeNode child1 = children.nextElement();
+			StackNode stackNode1 = (StackNode)child1.getUserObject();
+			
+			if( prevNode == null ) {
+				prevNode = child1;
+				prevNodeObj = stackNode1;
+
+				if( sort(child1) ) {
+					return true;
+				}
+				
+				continue;
+			}
+			
+			if( stackNode1.getCount() > prevNodeObj.getCount() ) {
+				// Swap
+				currNode.remove(prevNode);
+				currNode.insert(prevNode, currNode.getIndex(child1)+1);
+				return true;
+			}
+			
+			prevNode = child1;
+			prevNodeObj = stackNode1;
+			
+		}
+		return false;
 	}
 
     private class BookInfo {
@@ -204,64 +249,6 @@ public class ViewList extends View {
             return bookName;
         }
     }
-	
-	private void populateTree(DefaultMutableTreeNode root) {
-		DefaultMutableTreeNode category = null;
-        DefaultMutableTreeNode book = null;
-
-        category = new DefaultMutableTreeNode("Books for Java Programmers");
-        root.add(category);
-
-        //original Tutorial
-        book = new DefaultMutableTreeNode(new BookInfo
-            ("The Java Tutorial: A Short Course on the Basics",
-            "tutorial.html"));
-        category.add(book);
-
-        //Tutorial Continued
-        book = new DefaultMutableTreeNode(new BookInfo
-            ("The Java Tutorial Continued: The Rest of the JDK",
-            "tutorialcont.html"));
-        category.add(book);
-
-        //JFC Swing Tutorial
-        book = new DefaultMutableTreeNode(new BookInfo
-            ("The JFC Swing Tutorial: A Guide to Constructing GUIs",
-            "swingtutorial.html"));
-        category.add(book);
-
-        //Bloch
-        book = new DefaultMutableTreeNode(new BookInfo
-            ("Effective Java Programming Language Guide",
-	     "bloch.html"));
-        category.add(book);
-
-        //Arnold/Gosling
-        book = new DefaultMutableTreeNode(new BookInfo
-            ("The Java Programming Language", "arnold.html"));
-        category.add(book);
-
-        //Chan
-        book = new DefaultMutableTreeNode(new BookInfo
-            ("The Java Developers Almanac",
-             "chan.html"));
-        category.add(book);
-
-        category = new DefaultMutableTreeNode("Books for Java Implementers");
-        root.add(category);
-
-        //VM
-        book = new DefaultMutableTreeNode(new BookInfo
-            ("The Java Virtual Machine Specification",
-             "vm.html"));
-        category.add(book);
-
-        //Language Spec
-        book = new DefaultMutableTreeNode(new BookInfo
-            ("The Java Language Specification",
-             "jls.html"));
-        category.add(book);
-	}
 	
 	public class TimeLine extends Component {
 		private final List<Sample> samples;
@@ -384,11 +371,11 @@ public class ViewList extends View {
 			if( s == null || highlightMatchingStack == null ) {
 				return false;
 			}
-			if( s.getStack().size() != highlightMatchingStack.size() ) {
+			if( s.getStack().size() < highlightMatchingStack.size() ) {
 				return false;
 			}
 			
-			for(int i = 0; i < highlightMatchingStack.size(); i++) {
+			for(int i = 0; i < highlightMatchingStack.size() && i < s.getStack().size(); i++) {
 				if( highlightMatchingStack.get(i).equalsIgnoreCase(s.getStack().get(i)) == false ) {
 					return false;
 				}
@@ -402,9 +389,21 @@ public class ViewList extends View {
 			g.setColor(Color.black);
 			for(Sample s: samples) {
 				if( isMatchingSample(s) ) {
-					g.setColor(Color.red);
+					g.setColor(Color.green);
 				} else {
-					g.setColor(Color.black);
+					int redIntensity = (int) (Math.min(100.f, (float)s.getResponsiveness()) / 100.0 * 255);
+					//float redIntensityf = 0.5f + s.getResponsiveness() / 100.0f;
+					//Color hsb = Color.getHSBColor(Math.min(1.0f,redIntensityf), 1.0f, 1.0f);
+					redIntensity = Math.min(redIntensity, 255);
+					Color rgb;
+					try {
+						rgb = new Color(redIntensity, 0, 0);
+						g.setColor(rgb);
+					} catch (Exception e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					//System.out.println(s.getResponsiveness() + " -> " + redIntensity);
 				}
 				g.fillRect((int)(x++ * scale), 0, (int)(1 * scale), s.getStack().size() * getHeight() / maxDepth());
 			}

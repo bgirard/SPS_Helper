@@ -1,0 +1,2963 @@
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x9318d25c
+l-___CFBasicHashFindBucket1 (in CoreFoundation) + 444
+l-0x9319542c
+l-CFBasicHashFindBucket (in CoreFoundation) + 252
+l-0x931952f3
+l-CFDictionaryGetValue (in CoreFoundation) + 131
+l-0x90eed64c
+l-TBaseFont::CopyAttributeInternal(void const*) const (in CoreText) + 62
+l-0x90ef66f7
+l-TBaseFont::CopyVariation() const (in CoreText) + 59
+l-0x90ef5ec8
+l-TBaseFont::CopyTraits() const (in CoreText) + 84
+l-0x9712f418
+l--[NSFontManager availableMembersOfFontFamily:] (in AppKit) + 744
+l-0x1ff0d8c
+l-gfxMacFontFamily::FindStyleVariations() (in XUL) (gfxMacPlatformFontList.mm:532)
+l-0x1fd38cb
+l-gfxPlatformFontList::RunLoader() (in XUL) (nsTArray.h:203)
+l-0x1ff20e8
+l-gfxFontInfoLoader::LoaderTimerCallback(nsITimer*, void*) (in XUL) (gfxFontUtils.h:946)
+l-0x1f67ebf
+l-nsTimerImpl::Fire() (in XUL) (nsTimerImpl.cpp:424)
+l-0x1f67fb8
+l-nsTimerEvent::Run() (in XUL) (nsAutoPtr.h:907)
+l-0x1f6420b
+l-nsThread::ProcessNextEvent(bool, bool*) (in XUL) (nsThread.cpp:631)
+l-0x1f22057
+l-NS_ProcessPendingEvents_P(nsIThread*, unsigned int) (in XUL) (nsThreadUtils.cpp:195)
+l-0x1dd85a4
+l-nsBaseAppShell::NativeEventCallback() (in XUL) (nsBaseAppShell.cpp:131)
+l-0x1d9148a
+l-nsAppShell::ProcessGeckoEvents(void*) (in XUL) (nsAppShell.mm:425)
+l-0x931ba42b
+l-__CFRunLoopDoSources0 (in CoreFoundation) + 1563
+l-0x931b7eef
+l-__CFRunLoopRun (in CoreFoundation) + 1071
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x9518ac50
+l-XTSendCopyPropertiesForFontsMatchingRequest (in libFontRegistry.dylib) + 182
+l-0x9518a825
+l-TGlobalFontRegistryImp::CopyPropertiesForFontsMatchingRequest(__CFDictionary const*, __CFSet const*, unsigned int) const (in libFontRegistry.dylib) + 237
+l-0x95188fe9
+l-XTCopyFontsWithProperties (in libFontRegistry.dylib) + 225
+l-0x90f0072d
+l-TDescriptorSource::CopyDescriptorsForRequest(__CFDictionary const*, __CFSet const*, long (*)(void const*, void const*, void*), void*, unsigned long) const (in CoreText) + 377
+l-0x90f02bbb
+l-TDescriptor::CreateMatchingDescriptors(__CFSet const*, unsigned long) const (in CoreText) + 135
+l-0x9712f93b
+l-__NSCopyNormalizedDescriptorsForFamily (in AppKit) + 467
+l-0x9712f28e
+l--[NSFontManager availableMembersOfFontFamily:] (in AppKit) + 350
+l-0x1ff0d8c
+l-gfxMacFontFamily::FindStyleVariations() (in XUL) (gfxMacPlatformFontList.mm:532)
+l-0x1fd38cb
+l-gfxPlatformFontList::RunLoader() (in XUL) (nsTArray.h:203)
+l-0x1ff20e8
+l-gfxFontInfoLoader::LoaderTimerCallback(nsITimer*, void*) (in XUL) (gfxFontUtils.h:946)
+l-0x1f67ebf
+l-nsTimerImpl::Fire() (in XUL) (nsTimerImpl.cpp:424)
+l-0x1f67fb8
+l-nsTimerEvent::Run() (in XUL) (nsAutoPtr.h:907)
+l-0x1f6420b
+l-nsThread::ProcessNextEvent(bool, bool*) (in XUL) (nsThread.cpp:631)
+l-0x1f22057
+l-NS_ProcessPendingEvents_P(nsIThread*, unsigned int) (in XUL) (nsThreadUtils.cpp:195)
+l-0x1dd85a4
+l-nsBaseAppShell::NativeEventCallback() (in XUL) (nsBaseAppShell.cpp:131)
+l-0x1d9148a
+l-nsAppShell::ProcessGeckoEvents(void*) (in XUL) (nsAppShell.mm:425)
+l-0x931ba42b
+l-__CFRunLoopDoSources0 (in CoreFoundation) + 1563
+l-0x931b7eef
+l-__CFRunLoopRun (in CoreFoundation) + 1071
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x9318d25c
+l-___CFBasicHashFindBucket1 (in CoreFoundation) + 444
+l-0x9318c8ef
+l-CFBasicHashAddValue (in CoreFoundation) + 431
+l-0x931b712c
+l-CFDictionaryCreate (in CoreFoundation) + 108
+l-0x95186da8
+l-TCFResurrectContext::ResurrectCFDictionary() (in libFontRegistry.dylib) + 290
+l-0x95186bee
+l-TCFResurrectContext::Resurrect() (in libFontRegistry.dylib) + 172
+l-0x951875d1
+l-TGlobalFontRegistryImp::CopyPropertyForFonts(__CFArray const*, __CFString const*, unsigned int) const (in libFontRegistry.dylib) + 543
+l-0x9518729d
+l-XTCopyPropertyForFonts (in libFontRegistry.dylib) + 132
+l-0x90ef5fed
+l-TBaseFont::CreateTraitsValuesPerFontInfo() const (in CoreText) + 127
+l-0x90ef5eb5
+l-TBaseFont::CopyTraits() const (in CoreText) + 65
+l-0x9712f418
+l--[NSFontManager availableMembersOfFontFamily:] (in AppKit) + 744
+l-0x1ff0d8c
+l-gfxMacFontFamily::FindStyleVariations() (in XUL) (gfxMacPlatformFontList.mm:532)
+l-0x1fd38cb
+l-gfxPlatformFontList::RunLoader() (in XUL) (nsTArray.h:203)
+l-0x1ff20e8
+l-gfxFontInfoLoader::LoaderTimerCallback(nsITimer*, void*) (in XUL) (gfxFontUtils.h:946)
+l-0x1f67ebf
+l-nsTimerImpl::Fire() (in XUL) (nsTimerImpl.cpp:424)
+l-0x1f67fb8
+l-nsTimerEvent::Run() (in XUL) (nsAutoPtr.h:907)
+l-0x1f6420b
+l-nsThread::ProcessNextEvent(bool, bool*) (in XUL) (nsThread.cpp:631)
+l-0x1f22057
+l-NS_ProcessPendingEvents_P(nsIThread*, unsigned int) (in XUL) (nsThreadUtils.cpp:195)
+l-0x1dd85a4
+l-nsBaseAppShell::NativeEventCallback() (in XUL) (nsBaseAppShell.cpp:131)
+l-0x1d9148a
+l-nsAppShell::ProcessGeckoEvents(void*) (in XUL) (nsAppShell.mm:425)
+l-0x931ba42b
+l-__CFRunLoopDoSources0 (in CoreFoundation) + 1563
+l-0x931b7eef
+l-__CFRunLoopRun (in CoreFoundation) + 1071
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931ebf81
+l-CFBasicHashesAreEqual (in CoreFoundation) + 177
+l-0x931ebec8
+l-__CFBasicHashEqual (in CoreFoundation) + 24
+l-0x931ebea8
+l-__CFDictionaryEqual (in CoreFoundation) + 24
+l-0x93188e37
+l-CFEqual (in CoreFoundation) + 391
+l-0x90eec838
+l-TLRUCacheImp<TRequestCacheNode, 16ul>::FindNode(TRequestCacheNode const&) (in CoreText) + 80
+l-0x90eec73e
+l-TRequestCache::CopyResultForRequest(void const*, unsigned long, void const*&, long (*)(void const*, void const*, void*)) (in CoreText) + 68
+l-0x90f00e71
+l-TDescriptorSource::CopyCachedDescriptors(__CFDictionary const*, unsigned long, __CFArray const*&, long (*)(void const*, void const*, void*), void*) const (in CoreText) + 71
+l-0x90f0060d
+l-TDescriptorSource::CopyDescriptorsForRequest(__CFDictionary const*, __CFSet const*, long (*)(void const*, void const*, void*), void*, unsigned long) const (in CoreText) + 89
+l-0x90f02bbb
+l-TDescriptor::CreateMatchingDescriptors(__CFSet const*, unsigned long) const (in CoreText) + 135
+l-0x9712f93b
+l-__NSCopyNormalizedDescriptorsForFamily (in AppKit) + 467
+l-0x9712f28e
+l--[NSFontManager availableMembersOfFontFamily:] (in AppKit) + 350
+l-0x1ff0d8c
+l-gfxMacFontFamily::FindStyleVariations() (in XUL) (gfxMacPlatformFontList.mm:532)
+l-0x1fd38cb
+l-gfxPlatformFontList::RunLoader() (in XUL) (nsTArray.h:203)
+l-0x1ff20e8
+l-gfxFontInfoLoader::LoaderTimerCallback(nsITimer*, void*) (in XUL) (gfxFontUtils.h:946)
+l-0x1f67ebf
+l-nsTimerImpl::Fire() (in XUL) (nsTimerImpl.cpp:424)
+l-0x1f67fb8
+l-nsTimerEvent::Run() (in XUL) (nsAutoPtr.h:907)
+l-0x1f6420b
+l-nsThread::ProcessNextEvent(bool, bool*) (in XUL) (nsThread.cpp:631)
+l-0x1f22057
+l-NS_ProcessPendingEvents_P(nsIThread*, unsigned int) (in XUL) (nsThreadUtils.cpp:195)
+l-0x1dd85a4
+l-nsBaseAppShell::NativeEventCallback() (in XUL) (nsBaseAppShell.cpp:131)
+l-0x1d9148a
+l-nsAppShell::ProcessGeckoEvents(void*) (in XUL) (nsAppShell.mm:425)
+l-0x931ba42b
+l-__CFRunLoopDoSources0 (in CoreFoundation) + 1563
+l-0x931b7eef
+l-__CFRunLoopRun (in CoreFoundation) + 1071
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x95186a0a
+l-XTSendCopyPropertiesForFont (in libFontRegistry.dylib) + 278
+l-0x95185da0
+l-TGlobalFontRegistryImp::CopyPropertiesForFont(__CFURL const*, __CFSet const*, unsigned int) const (in libFontRegistry.dylib) + 408
+l-0x95185479
+l-XTCopyPropertiesForFont (in libFontRegistry.dylib) + 160
+l-0x90ef6b74
+l-TBaseFont::DetermineFontFlags(bool) const (in CoreText) + 152
+l-0x90ef6ac4
+l-TBaseFont::GetFontFlags() const (in CoreText) + 32
+l-0x90f02f1d
+l-TBaseFont::IsInvisible() const (in CoreText) + 17
+l-0x90f009cc
+l-TDescriptorSource::CopyDescriptorsForRequest(__CFDictionary const*, __CFSet const*, long (*)(void const*, void const*, void*), void*, unsigned long) const (in CoreText) + 1048
+l-0x90f02bbb
+l-TDescriptor::CreateMatchingDescriptors(__CFSet const*, unsigned long) const (in CoreText) + 135
+l-0x9712f93b
+l-__NSCopyNormalizedDescriptorsForFamily (in AppKit) + 467
+l-0x9712f28e
+l--[NSFontManager availableMembersOfFontFamily:] (in AppKit) + 350
+l-0x1ff0d8c
+l-gfxMacFontFamily::FindStyleVariations() (in XUL) (gfxMacPlatformFontList.mm:532)
+l-0x1fd38cb
+l-gfxPlatformFontList::RunLoader() (in XUL) (nsTArray.h:203)
+l-0x1ff20e8
+l-gfxFontInfoLoader::LoaderTimerCallback(nsITimer*, void*) (in XUL) (gfxFontUtils.h:946)
+l-0x1f67ebf
+l-nsTimerImpl::Fire() (in XUL) (nsTimerImpl.cpp:424)
+l-0x1f67fb8
+l-nsTimerEvent::Run() (in XUL) (nsAutoPtr.h:907)
+l-0x1f6420b
+l-nsThread::ProcessNextEvent(bool, bool*) (in XUL) (nsThread.cpp:631)
+l-0x1f22057
+l-NS_ProcessPendingEvents_P(nsIThread*, unsigned int) (in XUL) (nsThreadUtils.cpp:195)
+l-0x1dd85a4
+l-nsBaseAppShell::NativeEventCallback() (in XUL) (nsBaseAppShell.cpp:131)
+l-0x1d9148a
+l-nsAppShell::ProcessGeckoEvents(void*) (in XUL) (nsAppShell.mm:425)
+l-0x931ba42b
+l-__CFRunLoopDoSources0 (in CoreFoundation) + 1563
+l-0x931b7eef
+l-__CFRunLoopRun (in CoreFoundation) + 1071
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x1116246
+l-nsGBKToUnicode::ConvertNoBuff(char const*, int*, unsigned short*, int*) (in XUL) (nsGBKToUnicode.cpp:164)
+l-0x1f8a956
+l-nsBufferDecoderSupport::Convert(char const*, int*, unsigned short*, int*) (in XUL) (nsUCSupport.cpp:189)
+l-0x1fcd2d9
+l-gfxFontUtils::DecodeFontName(unsigned char const*, int, unsigned int, unsigned int, unsigned int, nsAString_internal&) (in XUL) (gfxFontUtils.cpp:1758)
+l-0x1fb9832
+l-gfxFontFamily::ReadOtherFamilyNamesForFace(gfxPlatformFontList*, FallibleTArray<unsigned char>&, bool) (in XUL) (gfxFont.cpp:809)
+l-0x1fbd44e
+l-gfxFontFamily::ReadFaceNames(gfxPlatformFontList*, bool) (in XUL) (gfxFont.cpp:913)
+l-0x1fd390b
+l-gfxPlatformFontList::RunLoader() (in XUL) (gfxPlatformFontList.cpp:624)
+l-0x1ff20e8
+l-gfxFontInfoLoader::LoaderTimerCallback(nsITimer*, void*) (in XUL) (gfxFontUtils.h:946)
+l-0x1f67ebf
+l-nsTimerImpl::Fire() (in XUL) (nsTimerImpl.cpp:424)
+l-0x1f67fb8
+l-nsTimerEvent::Run() (in XUL) (nsAutoPtr.h:907)
+l-0x1f6420b
+l-nsThread::ProcessNextEvent(bool, bool*) (in XUL) (nsThread.cpp:631)
+l-0x1f22057
+l-NS_ProcessPendingEvents_P(nsIThread*, unsigned int) (in XUL) (nsThreadUtils.cpp:195)
+l-0x1dd85a4
+l-nsBaseAppShell::NativeEventCallback() (in XUL) (nsBaseAppShell.cpp:131)
+l-0x1d9148a
+l-nsAppShell::ProcessGeckoEvents(void*) (in XUL) (nsAppShell.mm:425)
+l-0x931ba42b
+l-__CFRunLoopDoSources0 (in CoreFoundation) + 1563
+l-0x931b7eef
+l-__CFRunLoopRun (in CoreFoundation) + 1071
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x1fce377
+l-gfxFontUtils::ReadCMAP(unsigned char const*, unsigned int, gfxSparseBitSet&, unsigned int&, bool&, bool&) (in XUL) (gfxFontUtils.cpp:633)
+l-0x1feef49
+l-MacOSFontEntry::ReadCMAP() (in XUL) (gfxMacPlatformFontList.mm:203)
+l-0x1fd38ef
+l-gfxPlatformFontList::RunLoader() (in XUL) (gfxFont.h:549)
+l-0x1ff20e8
+l-gfxFontInfoLoader::LoaderTimerCallback(nsITimer*, void*) (in XUL) (gfxFontUtils.h:946)
+l-0x1f67ebf
+l-nsTimerImpl::Fire() (in XUL) (nsTimerImpl.cpp:424)
+l-0x1f67fb8
+l-nsTimerEvent::Run() (in XUL) (nsAutoPtr.h:907)
+l-0x1f6420b
+l-nsThread::ProcessNextEvent(bool, bool*) (in XUL) (nsThread.cpp:631)
+l-0x1f22057
+l-NS_ProcessPendingEvents_P(nsIThread*, unsigned int) (in XUL) (nsThreadUtils.cpp:195)
+l-0x1dd85a4
+l-nsBaseAppShell::NativeEventCallback() (in XUL) (nsBaseAppShell.cpp:131)
+l-0x1d9148a
+l-nsAppShell::ProcessGeckoEvents(void*) (in XUL) (nsAppShell.mm:425)
+l-0x931ba42b
+l-__CFRunLoopDoSources0 (in CoreFoundation) + 1563
+l-0x931b7eef
+l-__CFRunLoopRun (in CoreFoundation) + 1071
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x95187b29
+l-XTSendCopyPropertyForFonts (in libFontRegistry.dylib) + 265
+l-0x95187534
+l-TGlobalFontRegistryImp::CopyPropertyForFonts(__CFArray const*, __CFString const*, unsigned int) const (in libFontRegistry.dylib) + 386
+l-0x9518729d
+l-XTCopyPropertyForFonts (in libFontRegistry.dylib) + 132
+l-0x90ef677e
+l-TBaseFont::CopyVariation() const (in CoreText) + 194
+l-0x90ef5ec8
+l-TBaseFont::CopyTraits() const (in CoreText) + 84
+l-0x9712f418
+l--[NSFontManager availableMembersOfFontFamily:] (in AppKit) + 744
+l-0x1ff0d8c
+l-gfxMacFontFamily::FindStyleVariations() (in XUL) (gfxMacPlatformFontList.mm:532)
+l-0x1fd38cb
+l-gfxPlatformFontList::RunLoader() (in XUL) (nsTArray.h:203)
+l-0x1ff20e8
+l-gfxFontInfoLoader::LoaderTimerCallback(nsITimer*, void*) (in XUL) (gfxFontUtils.h:946)
+l-0x1f67ebf
+l-nsTimerImpl::Fire() (in XUL) (nsTimerImpl.cpp:424)
+l-0x1f67fb8
+l-nsTimerEvent::Run() (in XUL) (nsAutoPtr.h:907)
+l-0x1f6420b
+l-nsThread::ProcessNextEvent(bool, bool*) (in XUL) (nsThread.cpp:631)
+l-0x1f22057
+l-NS_ProcessPendingEvents_P(nsIThread*, unsigned int) (in XUL) (nsThreadUtils.cpp:195)
+l-0x1dd85a4
+l-nsBaseAppShell::NativeEventCallback() (in XUL) (nsBaseAppShell.cpp:131)
+l-0x1d9148a
+l-nsAppShell::ProcessGeckoEvents(void*) (in XUL) (nsAppShell.mm:425)
+l-0x931ba42b
+l-__CFRunLoopDoSources0 (in CoreFoundation) + 1563
+l-0x931b7eef
+l-__CFRunLoopRun (in CoreFoundation) + 1071
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x931b82df
+l-__CFRunLoopRun (in CoreFoundation) + 2079
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x95187b29
+l-XTSendCopyPropertyForFonts (in libFontRegistry.dylib) + 265
+l-0x95187534
+l-TGlobalFontRegistryImp::CopyPropertyForFonts(__CFArray const*, __CFString const*, unsigned int) const (in libFontRegistry.dylib) + 386
+l-0x9518729d
+l-XTCopyPropertyForFonts (in libFontRegistry.dylib) + 132
+l-0x90ef5fed
+l-TBaseFont::CreateTraitsValuesPerFontInfo() const (in CoreText) + 127
+l-0x90ef5eb5
+l-TBaseFont::CopyTraits() const (in CoreText) + 65
+l-0x9712f418
+l--[NSFontManager availableMembersOfFontFamily:] (in AppKit) + 744
+l-0x1ff0d8c
+l-gfxMacFontFamily::FindStyleVariations() (in XUL) (gfxMacPlatformFontList.mm:532)
+l-0x1fd38cb
+l-gfxPlatformFontList::RunLoader() (in XUL) (nsTArray.h:203)
+l-0x1ff20e8
+l-gfxFontInfoLoader::LoaderTimerCallback(nsITimer*, void*) (in XUL) (gfxFontUtils.h:946)
+l-0x1f67ebf
+l-nsTimerImpl::Fire() (in XUL) (nsTimerImpl.cpp:424)
+l-0x1f67fb8
+l-nsTimerEvent::Run() (in XUL) (nsAutoPtr.h:907)
+l-0x1f6420b
+l-nsThread::ProcessNextEvent(bool, bool*) (in XUL) (nsThread.cpp:631)
+l-0x1f22057
+l-NS_ProcessPendingEvents_P(nsIThread*, unsigned int) (in XUL) (nsThreadUtils.cpp:195)
+l-0x1dd85a4
+l-nsBaseAppShell::NativeEventCallback() (in XUL) (nsBaseAppShell.cpp:131)
+l-0x1d9148a
+l-nsAppShell::ProcessGeckoEvents(void*) (in XUL) (nsAppShell.mm:425)
+l-0x931ba42b
+l-__CFRunLoopDoSources0 (in CoreFoundation) + 1563
+l-0x931b7eef
+l-__CFRunLoopRun (in CoreFoundation) + 1071
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x9518ac50
+l-XTSendCopyPropertiesForFontsMatchingRequest (in libFontRegistry.dylib) + 182
+l-0x9518a825
+l-TGlobalFontRegistryImp::CopyPropertiesForFontsMatchingRequest(__CFDictionary const*, __CFSet const*, unsigned int) const (in libFontRegistry.dylib) + 237
+l-0x95188fe9
+l-XTCopyFontsWithProperties (in libFontRegistry.dylib) + 225
+l-0x90f0072d
+l-TDescriptorSource::CopyDescriptorsForRequest(__CFDictionary const*, __CFSet const*, long (*)(void const*, void const*, void*), void*, unsigned long) const (in CoreText) + 377
+l-0x90f02bbb
+l-TDescriptor::CreateMatchingDescriptors(__CFSet const*, unsigned long) const (in CoreText) + 135
+l-0x9712f93b
+l-__NSCopyNormalizedDescriptorsForFamily (in AppKit) + 467
+l-0x9712f28e
+l--[NSFontManager availableMembersOfFontFamily:] (in AppKit) + 350
+l-0x1ff0d8c
+l-gfxMacFontFamily::FindStyleVariations() (in XUL) (gfxMacPlatformFontList.mm:532)
+l-0x1fd38cb
+l-gfxPlatformFontList::RunLoader() (in XUL) (nsTArray.h:203)
+l-0x1ff20e8
+l-gfxFontInfoLoader::LoaderTimerCallback(nsITimer*, void*) (in XUL) (gfxFontUtils.h:946)
+l-0x1f67ebf
+l-nsTimerImpl::Fire() (in XUL) (nsTimerImpl.cpp:424)
+l-0x1f67fb8
+l-nsTimerEvent::Run() (in XUL) (nsAutoPtr.h:907)
+l-0x1f6420b
+l-nsThread::ProcessNextEvent(bool, bool*) (in XUL) (nsThread.cpp:631)
+l-0x1f22057
+l-NS_ProcessPendingEvents_P(nsIThread*, unsigned int) (in XUL) (nsThreadUtils.cpp:195)
+l-0x1dd85a4
+l-nsBaseAppShell::NativeEventCallback() (in XUL) (nsBaseAppShell.cpp:131)
+l-0x1d9148a
+l-nsAppShell::ProcessGeckoEvents(void*) (in XUL) (nsAppShell.mm:425)
+l-0x931ba42b
+l-__CFRunLoopDoSources0 (in CoreFoundation) + 1563
+l-0x931b7eef
+l-__CFRunLoopRun (in CoreFoundation) + 1071
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x95187b29
+l-XTSendCopyPropertyForFonts (in libFontRegistry.dylib) + 265
+l-0x95187534
+l-TGlobalFontRegistryImp::CopyPropertyForFonts(__CFArray const*, __CFString const*, unsigned int) const (in libFontRegistry.dylib) + 386
+l-0x9518729d
+l-XTCopyPropertyForFonts (in libFontRegistry.dylib) + 132
+l-0x90ef5fed
+l-TBaseFont::CreateTraitsValuesPerFontInfo() const (in CoreText) + 127
+l-0x90ef5eb5
+l-TBaseFont::CopyTraits() const (in CoreText) + 65
+l-0x9712f418
+l--[NSFontManager availableMembersOfFontFamily:] (in AppKit) + 744
+l-0x1ff0d8c
+l-gfxMacFontFamily::FindStyleVariations() (in XUL) (gfxMacPlatformFontList.mm:532)
+l-0x1fd38cb
+l-gfxPlatformFontList::RunLoader() (in XUL) (nsTArray.h:203)
+l-0x1ff20e8
+l-gfxFontInfoLoader::LoaderTimerCallback(nsITimer*, void*) (in XUL) (gfxFontUtils.h:946)
+l-0x1f67ebf
+l-nsTimerImpl::Fire() (in XUL) (nsTimerImpl.cpp:424)
+l-0x1f67fb8
+l-nsTimerEvent::Run() (in XUL) (nsAutoPtr.h:907)
+l-0x1f6420b
+l-nsThread::ProcessNextEvent(bool, bool*) (in XUL) (nsThread.cpp:631)
+l-0x1f22057
+l-NS_ProcessPendingEvents_P(nsIThread*, unsigned int) (in XUL) (nsThreadUtils.cpp:195)
+l-0x1dd85a4
+l-nsBaseAppShell::NativeEventCallback() (in XUL) (nsBaseAppShell.cpp:131)
+l-0x1d9148a
+l-nsAppShell::ProcessGeckoEvents(void*) (in XUL) (nsAppShell.mm:425)
+l-0x931ba42b
+l-__CFRunLoopDoSources0 (in CoreFoundation) + 1563
+l-0x931b7eef
+l-__CFRunLoopRun (in CoreFoundation) + 1071
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
+l-0x96e5dc5b
+l-vfprintf_l (in libSystem.B.dylib) + 100
+l-0x96e5dbed
+l-fprintf (in libSystem.B.dylib) + 74
+l-0x202f35a
+l-ProfileEntry::WriteTag(Profile*, __sFILE*) (in XUL) (TableTicker.cpp:291)
+l-0x202fb25
+l-SaveProfileTask::Run() (in XUL) (TableTicker.cpp:136)
+l-0x1f6420b
+l-nsThread::ProcessNextEvent(bool, bool*) (in XUL) (nsThread.cpp:631)
+l-0x1f22057
+l-NS_ProcessPendingEvents_P(nsIThread*, unsigned int) (in XUL) (nsThreadUtils.cpp:195)
+l-0x1dd85a4
+l-nsBaseAppShell::NativeEventCallback() (in XUL) (nsBaseAppShell.cpp:131)
+l-0x1d9148a
+l-nsAppShell::ProcessGeckoEvents(void*) (in XUL) (nsAppShell.mm:425)
+l-0x931ba42b
+l-__CFRunLoopDoSources0 (in CoreFoundation) + 1563
+l-0x931b7eef
+l-__CFRunLoopRun (in CoreFoundation) + 1071
+l-0x931b73c4
+l-CFRunLoopRunSpecific (in CoreFoundation) + 452
+l-0x931b71f1
+l-CFRunLoopRunInMode (in CoreFoundation) + 97
+l-0x94369d60
+l-RunCurrentEventLoopInMode (in HIToolbox) + 392
+l-0x94369b17
+l-ReceiveNextEventCommon (in HIToolbox) + 354
+l-0x9436999c
+l-BlockUntilNextEventMatchingListInMode (in HIToolbox) + 81
+l-0x9709d595
+l-_DPSNextEvent (in AppKit) + 847
+l-0x9709cdd6
+l--[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] (in AppKit) + 156
+l-0x9705f1f3
+l--[NSApplication run] (in AppKit) + 821
+l-0x1d90a1a
+l-nsAppShell::Run() (in XUL) (nsAppShell.mm:771)
+l-0x1be8a87
+l-nsAppStartup::Run() (in XUL) (nsAppStartup.cpp:229)
+l-0x1015fb3
+l-XRE_main (in XUL) (nsAppRunner.cpp:3556)
+l-0x1e96
+l-0x00000e96 (in firefox)
+l-0x1bb5
+l-0x00000bb5 (in firefox)
+s-XRE_Main
+l-0x016b47ef (in XUL)
