@@ -59,12 +59,12 @@ function clear_profile {
 }
 
 function dump_profile {
-  adb shell run-as $PACKAGE kill -42 $PID
+  adb shell run-as $PACKAGE kill -s USR2 $PID
   echo adb shell run-as $PACKAGE kill -42 $PID
   sleep 2
   mkdir tmp 2> /dev/null
   rm tmp/profile_*.txt 2> /dev/null
-  for file in $(adb shell ls /sdcard/profile_*_*.txt | tr "\n" " " | tr "\r" " "); do
+  for file in $(adb shell ls /sdcard/profile_*.txt | tr "\n" " " | tr "\r" " "); do
     adb pull $file tmp 2> /dev/null
   done
   cat tmp/*
