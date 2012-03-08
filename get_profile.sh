@@ -40,7 +40,7 @@ function find_pid {
   # By default, this will attach to the parent process.
   # Use "plugin-container" as argument to attach to child.
   if [ -z $1 ]; then
-    GREP="S org.mozilla.fennec"
+    GREP="org.mozilla.fennec"
   else
     GREP=$1
   fi
@@ -59,8 +59,8 @@ function clear_profile {
 }
 
 function dump_profile {
-  adb shell run-as $PACKAGE kill -s USR2 $PID
-  echo adb shell run-as $PACKAGE kill -42 $PID
+  adb shell run-as $PACKAGE kill -12 $PID
+  echo adb shell run-as $PACKAGE kill -12 $PID
   sleep 2
   mkdir tmp 2> /dev/null
   rm tmp/profile_*.txt 2> /dev/null
